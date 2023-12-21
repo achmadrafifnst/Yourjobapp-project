@@ -68,11 +68,8 @@
                                         color="rgb(49, 43, 43)" 
                                         tile 
                                         @click="validate" 
-                                        class="pa-6"
-                                        :style="{
-                                                'color':'#ecf0f1',
-                                                'border-radius':'15px'
-                                                }" 
+                                        class="mb-3 pa-0"
+                                        text
                                     >
                                         Create Account
                                     </v-btn>
@@ -181,6 +178,10 @@ export default{
                             this.colorInfo = '#E02E2E'
                             this.snackbar = true
                         }
+                        // else if (error.response.status === 500) {
+                        //     console.error('Error 500. Refreshing page...');
+                        //     window.location.reload(true);
+                        // }
                     }
                 )
                 // axios.post('https://rafif.pythonanywhere.com/api/rafif/yourjobapp/register',data).then(

@@ -123,7 +123,6 @@
               }
               else if (error.response.status === 500) {
                 console.error('Error 500. Refreshing page...');
-                // Tambahkan logika untuk merefresh halaman
                 window.location.reload(true);
               }
           }

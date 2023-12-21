@@ -42,11 +42,8 @@
                                         color="rgb(49, 43, 43)" 
                                         tile 
                                         type="submit" 
-                                        class="pa-6"
-                                        :style="{
-                                                'color':'#ecf0f1',
-                                                'border-radius':'15px'
-                                                }" 
+                                        class="mb-3"
+                                        text
                                     >
                                         Login
                                     </v-btn>
@@ -165,6 +162,19 @@ export default{
                 },
                 error => {
                     console.log(error.toString())
+                    var errStatus = error.response.status
+                    if (errStatus == 401){
+                        console.log(error.response.data.msg)
+                        this.info = error.response.data.msg
+                        this.colorInfo = '#E02E2E'
+                        this.snackbar = true
+                    }
+                    else if(errStatus == 400){
+                        console.log(error.response.data.msg)
+                        this.info = error.response.data.msg
+                        this.colorInfo = '#E02E2E'
+                        this.snackbar = true
+                    }
                 }
             )
         },
