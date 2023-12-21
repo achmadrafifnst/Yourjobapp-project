@@ -16,7 +16,7 @@
       <v-row>
         <!-- <v-col cols="12" md="1"> </v-col> -->
         <v-col cols="12" md="4" class="d-flex align-center justify-center">
-          <v-card class="align-center justify-center pa-3" id="container-info">
+          <v-card class="align-center justify-center pa-3" id="container-info" color="rgba(0,0,0,0)" elevation="0">
             <v-img src="../assets/skills (1).png" />
             <h2 class="mt-10">Identify your career potential</h2>
             <p>You only need to choose the answer that suits your skills. Your skills will help you to find the job that fit you.</p>
@@ -24,7 +24,7 @@
         </v-col>
         <!-- <v-col cols="12" md="1"> </v-col> -->
         <v-col cols="12" md="4" class="d-flex align-center justify-center">
-          <v-card class="align-center justify-center pa-3" id="container-info">
+          <v-card class="align-center justify-center pa-3" id="container-info" color="rgba(0,0,0,0)" elevation="0">
             <v-img src="../assets/analysis.png" />
             <h2 class="mt-10">Scientific Method</h2>
             <p>This test is developed using logistic regression method, so that the recommendation can be trusted.</p>
@@ -32,7 +32,7 @@
         </v-col>
         <!-- <v-col cols="12" md="1"> </v-col> -->
         <v-col cols="12" md="4" class="d-flex align-center justify-center">
-          <v-card class="align-center justify-center pa-3" id="container-info">
+          <v-card class="align-center justify-center pa-3" id="container-info" color="rgba(0,0,0,0)" elevation="0">
             <v-img src="../assets/booking.png" />
             <h2 class="mt-10">Easy to use</h2>
             <p>This test feature is very easy to use, only need internet access, and can be done anywhere.</p>
