@@ -1,8 +1,9 @@
 <template>
-  <div :style="{ background: 'url(' + require('@/assets/bg-coklat.png') + ')', 'background-size':'cover' }">
+  <!-- <div :style="{ background: 'url(' + require('@/assets/bg-coklat.png') + ')', 'background-size':'cover' }"> -->
+    <div>
     <v-app-bar
       app
-      color="#64320C"
+      style="background-color:rgba(100, 49, 15, 0.8); color:white;"
       dark
       fixed
       class="appBar"
@@ -63,7 +64,7 @@
       <v-row style="min-height: 5px; background-color: black;"></v-row>
       <v-row style="min-height: 50px; background-color: white;">
         <v-col cols="12" md="12" class="d-flex align-center justify-center" id="footer">
-          Developed By <a href="https://achmadrafifnasution.vercel.app" class="link"> Achmad Rafif Nasution</a>
+          Develop By <a href="https://achmadrafifnasution.vercel.app" class="link"> Achmad Rafif Nasution</a>
         </v-col>
       </v-row>
     </v-main>
