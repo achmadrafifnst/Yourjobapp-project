@@ -3,7 +3,7 @@
         <v-form @submit.prevent="onClickResult" ref="form" lazy-validation v-model="valid">
         <v-row>
             <v-col cols="12" md="12" class="d-flex align-center justify-center">
-                <v-card min-width="50vw" class="pa-16" style="border-radius:30px; background-color: rgba(100, 90, 90,0.5);">
+                <v-card min-width="50vw" class="pa-16" style="background-color: rgba(100, 90, 90,0.5);">
                     <v-row>
                         <v-col cols="12" md="6">
                             <v-autocomplete
